@@ -1,0 +1,14 @@
+{
+  "name": "verifyindic",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "VerifyIndic — verification API for Indian languages",
+  "scripts": {
+    "dev": "npm --prefix verifyindic-app run dev",
+    "build": "npm --prefix verifyindic-app run build",
+    "preview": "npm --prefix verifyindic-app run preview",
+    "provision-admins": "node verifyindic-app/scripts/provision-admins.mjs"
+  }
+}
+

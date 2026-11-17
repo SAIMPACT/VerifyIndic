@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npm --prefix verifyindic-app ci --include=dev",
+  "buildCommand": "npm run build",
+  "outputDirectory": "verifyindic-app/dist",
+  "rewrites": [
+    {
+      "source": "/(dashboard|login|signup|reset-password|admin|docs)",
+      "destination": "/index.html"
+    }
+  ]
+}
